@@ -136,7 +136,7 @@ export default function CustomizePage() {
                 <CustomButton label={"Home"} navigate={"/"} />
             </div>
 
-            <div className="relative w-full h-screen bg-[url(/images/bg.jpg)] text-white overflow-hidden">
+            <div className="relative w-full h-[100dvh] bg-[url(/images/bg.jpg)] text-white overflow-hidden">
                 {/* 3D Canvas */}
                 <div className="w-full h-full">
                     <Canvas camera={{ position: [0, 0, isMobile ? 4.5 : 3], fov: 50 }} gl={{ preserveDrawingBuffer: true }}>
