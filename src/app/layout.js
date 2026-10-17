@@ -1,5 +1,6 @@
 
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "Customize T-Shirt",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className="h-full antialiased"
     >
+      <Analytics />
       <body>{children}</body>
     </html>
   );
