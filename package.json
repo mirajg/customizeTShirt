@@ -1,7 +1,17 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "3d-tshirt-customizer",
+  "version": "1.0.0",
   "private": true,
+  "description": "An interactive 3D t-shirt customizer built with React Three Fiber and Next.js",
+  "author": "Miraj Gautam mirajgtesting@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "react-three-fiber",
+    "threejs",
+    "nextjs",
+    "3d-customizer",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +19,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
     "next": "16.4.2",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "three": "^0.186.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
