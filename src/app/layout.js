@@ -13,8 +13,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className="h-full antialiased"
     >
-      <Analytics />
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
